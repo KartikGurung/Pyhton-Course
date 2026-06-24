@@ -1,0 +1,26 @@
+# SETS : 
+-> A collection of data(items) stored in unordered method. 
+-> Each element in a set must be unique.
+-> Set is mutable.
+-> Each element in a set must be immutable.
+-> Allowed : str, int, tuple, float, boolean etc. 
+-> Not Allowed : list, dictionary.
+
+--> Examples :
+1. nums = {1,2,3}
+2. marks = {"raj", "ravi", "rahul"}
+3. s = {"raj", 55, "True", 0, True}
+4. s = {(1,2,3), "r", 1, 2, 3} --> its is a set
+5. lst = {[1,2,3],5, 6, 7} --> not a set
+
+--> Empty Set :
+collection = {} // This is an empty dictionary
+collection = set() // This is the set.
+
+--> Set Methods : 
+1. set.add(element) : adds an element in a set. 
+2. set.remove(element) : remove an element from the set.
+3. set.pop() : remove any random element from the set.
+4. set.union(set2) : combines both set elements(values) and return a new set.
+5. set.intersection(set2) : combines  the common values and return a new set.
+6. set.clear() : remove all the elements from the set.

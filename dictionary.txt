@@ -1,0 +1,39 @@
+--> Dictionary :
+-> A Python dictionary is a built-in data structure that stores data in ordered, mutable, and unique key-value pairs.
+-> Properties of Dictionaries : 
+1. unordered
+2. mutable
+3. they don't allow duplicates keys.
+-> example 1.1 : 
+dict = {
+    "name" : "ravi", --> here the "name" is the key and ravi is the value 
+    "CGPA" : "8.2",
+    "Marks" : 88
+}
+
+Q : Why dictionaries are unordered ?
+A : they use a hash table internally to enable near-instantaneous, O(1) constant-time lookups
+
+--> NULL Dictionary :
+null_dict = {}
+print(null_dict)
+
+# Nested Dictionary #
+->A nested dictionary in Python is a dictionary that contains other dictionaries as its values
+-> Case Sensitive :  dictionary keys are typically case-sensitive by default
+-> example 1.1 :
+student = {
+    "Name" : "Nikhil"
+    "Age" : "21"
+    "Score" : {
+        "OS" = 75
+        "CS" = 80
+    }
+}
+--> Items in dictionary are the key values pairs.
+# Dictionary Methods #
+1. dict.keys() : Return all the keys of the dictionaries
+2. dict.values() : Retrun all the values of the keys.
+3. dict.items() : Return all key values pairs as tuples
+4. dict.get() : to access the values through keys.
+5. dict.update(new_dict) : used to inserts the specified items to the dictionary.
