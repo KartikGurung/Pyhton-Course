@@ -1,0 +1,35 @@
+-> Functions in Python :
+
+--> Args and Kwargs :
+def miet(normal, *args, **kwargs)
+
+-> kwargs : It is used to pass multiple key value pairs.
+
+-> args: Args is short for arguments. 
+    <In programming, arguments are the specific data or values that you pass into a function or command when you call it.>
+
+-> Functions using dictionary :
+student = {
+    "name" : "aman",
+    "age" : 22,
+    "class" : "Second"
+}
+
+-> print vs return:
+def add(a,b):
+    print(a+b)
+
+x = add(2,3)
+print(x)
+
+print : only displays
+return : return backs the value
+
+--> Nested Functions :
+-> Function inside a function is k/as Nested function.
+-> Both variables and functions are global and local.
+-> Functions in Python are first class objects they can be passed as an arguments to the other function.
+-> Global : It is used to overwrite the value of a global variable.
+
+
+

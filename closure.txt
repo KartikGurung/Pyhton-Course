@@ -1,0 +1,6 @@
+--> Clousre :
+* Clousre is a useful function when you want a function to remember some configuration or statement without using global variables repeatedly passing the same argument.
+                                                OR 
+* function + remembered variable
+                                                OR
+* Closure Function is a function that remembers variable of it's outer function even after the outer function has finished executing.
