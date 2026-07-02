@@ -1,2 +1,7 @@
+def sumNaturalNumber(n):
+#     if (n == 0) :
+#         return 0 
+#     else:
+#         return n + sumNaturalNumber(n-1)
 
-# n = 5
+# print(sumNaturalNumber(5))
