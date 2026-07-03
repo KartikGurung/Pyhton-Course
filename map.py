@@ -22,11 +22,11 @@
 
 # With Lambda : 
  
-ages = [5, 12, 13, 14, 18, 90, 67, 56]
+# ages = [5, 12, 13, 14, 18, 90, 67, 56]
 
-adult = list(filter(lambda x : x>=18, ages))
+# adult = list(filter(lambda x : x>=18, ages))
 
-square = list(map(lambda x : x * x, adult))
-for x in square:
-    print(x)
-    
+# square = list(map(lambda x : x * x, adult))
+# for x in square:
+#     print(x)
+

@@ -17,14 +17,14 @@
 
 # Nested Dictionary :
 
-student = {
-    "Name" : "Nikhil",
-    "Age" : "21",
-    "Score" : {
-        "OS" : 75,
-        "CS" : 80
-    }
-}
+# student = {
+#     "Name" : "Nikhil",
+#     "Age" : "21",
+#     "Score" : {
+#         "OS" : 75,
+#         "CS" : 80
+#     }
+# }
 # print(student)
 # print(student["Score"]["CS"])
 # print(list(student.keys())) #--> Return keys
@@ -38,3 +38,20 @@ student = {
 # print(student)
 # student.update({"City" : "Jammu"})
 # print(student)
+# res = {}
+
+# for i in range(1,6):
+#     res[i] = i ** 2
+# print(res)
+
+# res = {i : i**2 for i in range(1,6)}
+# print(res)
+
+# words = ["apple", "banana", "cat"]
+
+# words = {i : len(i) for i in words}
+# print(words)
+
+
+
+

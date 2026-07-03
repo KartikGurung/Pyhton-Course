@@ -1,7 +1,5 @@
-def sumNaturalNumber(n):
-#     if (n == 0) :
-#         return 0 
-#     else:
-#         return n + sumNaturalNumber(n-1)
+res = {}
 
-# print(sumNaturalNumber(5))
+# for i in range(1,6):
+#     res[i] = i ** 2
+# print(res)

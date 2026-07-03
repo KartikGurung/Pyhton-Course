@@ -37,3 +37,6 @@ student = {
 3. dict.items() : Return all key values pairs as tuples
 4. dict.get() : to access the values through keys.
 5. dict.update(new_dict) : used to inserts the specified items to the dictionary.
+
+# Dictionary Comprehension :
+Short way to writing a dictionary is k/as dictionary comprehension

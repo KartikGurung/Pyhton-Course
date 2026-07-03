@@ -1,0 +1,61 @@
+--> Library :
+A library  is a collection of modules that is used for a specific type of application or need.
+
+1. Python standard Library :
+    -> this comes in-built with Python.
+commonly used modules:
+a. math module : provides mathematical function to support different type of calculations.
+b. cmath module('c': complex number) : provides mathematical function related to complex number.
+c. random module : provides fucntions for generating random numbers.
+d. urllib module : provides url handling. 
+
+2. NumPy Library : 
+    -> Provides some advanced math functionality along with tools to create and manipulate arrays.
+
+3. Scripy Library : 
+    -> Used for scientific calculations. 
+
+4. Pandas Library : 
+    -> Used Data manipulation. 
+
+5. Matplotlib Library: 
+    -> used for data manipulation(graphs and charts)
+
+6. Tkinter Library :
+    -> GUI interface or different types of calculations.
+
+7. PyTorch Library :
+    -> for deep learning. 
+
+8. Beautiful Soup Library :
+    -> Used for web scraping.
+
+9. Scikit : 
+    -> Used for machine learning. 
+
+10. OpenCV Library :
+    -> for image and video processing. 
+
+11. TensorFlow Library :
+    ->For AI & ML
+
+# What is Module :
+A Python Module is a file containing variables, class definition, satements, &functions related to a particular task.
+The major feature of a module is that the content of it can be used in other programs without having to rewrite or recreate them.
+
+# Structure of Module :
+    1. docstring : triple quoted string for document purpose (""" """)
+    2. variaables & constants : 
+    3. classes : templates or blueprints
+    4. objects : instances of class
+    5. satements : instructions
+    6. functions : for performing a task. 
+
+# Creating a Module :
+
+*To get help from a module you need to import thst & then use help command to get help fro that module.
+* docstring conversion :
+    1. first letter of first line should be capital.
+    2. second line should be blank.
+    3. rest of the details begain from the third line.
+    
